@@ -13,11 +13,11 @@ body {
 /*FONT IMPORT*/
 @font-face {
     font-family: 'openSas';
-    src: url(/fonts/Open_Sans/OpenSans-Light.ttf);
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
 }
 @font-face {
     font-family: 'Libre Caslon Display';
-    src: url(/fonts/Libre_Caslon_Display_1/LibreCaslonDisplay-Regular.ttf);
+    src: url(../fonts/Libre_Caslon_Display_1/LibreCaslonDisplay-Regular.ttf);
 }
 /*END FONT IMPORT*/
 
