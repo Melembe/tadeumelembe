@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+#00dacb
+5d5657
+*/
+
+/*BEGINING OF NAVBAR*/
+
+/*END OF NAVBAR*/
+
+/*FONT IMPORT*/
+@font-face {
+    font-family: 'openSas';
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Libre Caslon Display';
+    src: url(../fonts/Libre_Caslon_Display_1/LibreCaslonDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+/*END FONT IMPORT*/
+
+
+/*Begin NavBar*/
+#navBar{
+    top: 0;
+}
+#navBar .navbar{
+    background-color: #fff!important;
+    box-shadow: 1px 1px 0.5px 0px #5d565727;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#body #navBar .navbar .navbar-brand{
+    font-family: 'Libre Caslon Display', serif;
+}
+#body #navBar .navbar .navbar-collapse .navbar-nav .nav-item{
+    height: 100%;
+}
+#body #navBar .navbar .navbar-collapse .navbar-nav .nav-item a{
+    font-family: "Josefin Sans";
+    letter-spacing: .06rem;
+    color: #000;
+    text-transform: lowercase;  
+    margin: -12px 15px -12px 15px;
+}
+#body #navBar .navbar .navbar-collapse .navbar-nav li a:hover{
+    border-bottom: 1px solid #5d5657b0;
+    border-width: 5px;
+    color: #5d5657;
+    transition: 500ms;
+}
+#homeMenu{
+    border-bottom: 1px solid #5d5657b0;
+    border-width: 4px;
+}
+@media only screen and (max-width: 991px) {
+    #body #navBar .container #navbarSite .navbar-nav .nav-item li{
+        box-shadow: 1px 1px 0.5px 0px #5d5657;
+    }   
+}
+/*END NAVBAR*/
+
+
+
+/**BEGIN OF HOME PAGE*/
+#home{
+    background-color: #fff;
+    height: 100vh;
+}
+#home #homePage .row .block{
+    position: absolute;
+}
+#home #homePage .row .col h2{
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: 550;
+    color: #292929;
+    position: relative;
+    margin-top: 40vh;
+}
+#home #seeMore{
+    position: unset;
+    margin-top: 90vh;
+    margin-left: 45%;
+    align-content: center;
+}
+/**END OF HOME PAGE*/
+

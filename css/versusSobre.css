@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+#00dacb
+5d5657
+*/
+
+/*BEGINING OF NAVBAR*/
+
+/*END OF NAVBAR*/
+
+/*FONT IMPORT*/
+@font-face {
+    font-family: 'openSas';
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Libre Caslon Display';
+    src: url(../fonts/Libre_Caslon_Display_1/LibreCaslonDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url(../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+/*END FONT IMPORT*/
+
+
+/*Begin NavBar*/
+#navBar{
+    top: 0;
+}
+#navBar .navbar{
+    background-color: #fff!important;
+    box-shadow: 1px 1px 0.5px 0px #5d565727;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#body #navBar .navbar .navbar-brand{
+    font-family: 'Libre Caslon Display', serif;
+}
+#body #navBar .navbar .navbar-collapse .navbar-nav .nav-item{
+    height: 100%;
+}
+#body #navBar .navbar .navbar-collapse .navbar-nav .nav-item a{
+    font-family: "Josefin Sans";
+    letter-spacing: .06rem;
+    color: #000;
+    text-transform: lowercase;  
+    margin: -8px 15px -8px 15px;
+}
+#body #navBar .navbar .navbar-collapse .navbar-nav li a:hover{
+    border-bottom: 1px solid #5d5657b0;
+    border-width: 4px;
+    color: #5d5657;
+    transition: 300ms;
+}
+#aboutMenu{
+    border-bottom: 1px solid #5d5657b0;
+    border-width: 4px;
+}
+@media only screen and (max-width: 991px) {
+    #body #navBar .container #navbarSite .navbar-nav li{
+        box-shadow: 1px 1px 0.5px 0px #5d5657;
+        border-bottom: 1px solid #111111;
+        padding-top: 20px;
+    }   
+}
+/*END NAVBAR*/
+
+#about{
+    margin-top: 100px;
+}
+#about #aboutHead .heading{
+    color: #3f3f3f;
+}
+#about #aboutUs #missao, #about #aboutUs #visao, #about #aboutUs #valores{
+    box-shadow: 0px 0px 1px 1px #5d56571e; height: 50%;
+}
+#about #aboutUs .col-12{
+color: #3f3f3f;
+}
+#about #aboutUs .col-12 h3{
+    font-family: 'Josefin Sans';
+}
+#about #aboutUs .col-12{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+}

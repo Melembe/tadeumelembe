@@ -1,0 +1,267 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#myDiv{
+    display: none;
+}
+
+#preLoadSpinner{
+   
+    height: 100vh;
+    background-color: #206d79!important;
+}
+
+#preLoadSpinner #loader{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+#loader {
+    position: relative;
+   
+  }
+
+/*Home Section*/
+#home {
+    background-color: #206d79;
+    
+   
+   
+    width: 100%;
+    height: 100vh !important;   
+}
+
+/* -- NavBar--*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 3rem;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    background: #1b1b1b75!important;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 1rem 0 1rem;
+}
+
+.navbar-brand img {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0 0 0.5rem;
+    display: inline-block;
+}
+
+.navbar-brand h3 {
+    text-transform: uppercase;
+    color: black !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 545;
+    font-size: 1.4rem;
+    position: relative;
+    margin: 4px 0 0 0;
+    display: inline-block;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #4fb3c2;
+}
+
+#homeSe #home .row .col-12 h2.display-3{
+    margin-top: 20%;
+}
+#homeSe #home .container .col-12 h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+/*NavBar end*/
+
+#homeImage #h2{
+    height: auto;
+    width: 40%;
+    margin-bottom: auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+@media(max-width: 800px){
+    #homeImage #hi2{
+        width: 300px;
+        margin-bottom: -60.9%;
+    }      
+}
+#myDiv #homeSe #home .container h2{
+    color: #161414a1;
+
+
+    font-family: 'Inconsolata', monospace;
+
+}
+
+/*Home ends*/
+
+/*Small Bio*/
+
+
+#BioG {
+    background-color: #ededed;
+    height: 50%;
+    width: 100%;
+}
+
+#smallBio {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.offset .container #biografia {
+    padding-top: 1%;
+    color: #868484 !important;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#BioG .container #biografia #more {
+    display: none;
+}
+
+#BioG .container #menu-icon {
+    height: 4rem;
+    width: 4rem;
+}
+
+/*Small Bio ends*/
+
+/*Photos Section*/
+#photos {
+    background-color: #1b1b1b!important;
+    padding: 6px 8px 0 25px;
+}
+
+#photos #gridd .tz-gallery .row{
+    
+  
+    display: flex;
+
+    padding: 0 4px;
+}
+#photos #gridd .tz-gallery .row .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+#photos #gridd .tz-gallery .row .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 0;
+}
+
+.fit-image {
+    height: 100%;
+    width: 100%;
+}
+
+#gridd {
+    margin-top: 1.5%;
+}
+
+.grid-padding {
+    padding: 0 8px;
+}
+
+.grid-padding img {
+    margin-bottom: 16px;
+    transition: 0.8s ease;
+}
+
+.grid-padding img:hover {
+    box-shadow: 0 10px 40px 0 rgba(158, 158, 158, 0.6);
+    transition: 0.8s ease;
+}
+
+.col-sm-4 {
+    padding-right: 30px;
+}
+#gridd .tz-gallery .row .card{
+    border-radius: 0;
+
+}
+
+/*Photos End*/
+
+/*Videos*/
+#videos{
+    background-color: #1b1b1b;
+    padding: 6px 8px 1px 8px;
+}
+
+
+
+/*contact section begins*/
+#contactSection {
+    background-color: #206d79;
+    /*background-image: url(./imgs/background/backgroundContact1.jpg);*/
+    background-repeat: no-repeat;
+    background-size: 100% 45vh;
+    background-attachment: fixed;
+    height: 45vh;
+    width: 100%;
+}
+
+#contactSection .row #textContact h6{
+    color: #1b1b1b;
+    font-size: 60px;
+}
+
+#contactSection .row #contact img#socialMedia {
+    margin-top: 10%;
+    margin-bottom: auto;    
+    padding-right: 10px;
+    
+}
+/*contact section ends*/
+
+#footerSign {
+    background-color: #1b1b1b;
+    height: 1%;
+    width: 100%;
+    padding-top: 1.3%;
+    margin-bottom: -1.9%;
+}
+
+#footerSign .container #rodape .text {
+    color: #ededed;
+    font-size: 14px;
+    font-weight: 570;
+    letter-spacing: .1rem;
+    font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+#footerSign .container #rodape .text a {
+    color: #ededed;
+}
+
+
